@@ -1,0 +1,562 @@
+.wishlist{
+    position: absolute;
+width: 1354px;
+height: 959px;
+left: 78px;
+top: 277px;
+
+/* Accent color 2 */
+
+background: #FFF5EA;
+border-radius: 24px;
+}
+.line{
+    position: absolute;
+width: 1259px;
+height: 0px;
+left: 41px;
+top: 103px;
+
+border: 1px solid #BEBEBE;
+}
+.my{
+    position: absolute;
+width: 204px;
+height: 42px;
+left: 41px;
+top: 10px;
+
+/* Header 01 */
+
+font-family: 'Laila';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+/* identical to box height, or 131% */
+
+letter-spacing: 0.04em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+}
+.products{
+    
+position: absolute;
+width: 1271px;
+height: 782px;
+left: 41px;
+top: 147px;
+
+}
+.productrow1{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 100px;
+
+position: absolute;
+width: 1258px;
+height: 204px;
+left: calc(50% - 1258px/2 + 6.5px);
+top: 0px;
+
+
+order: 0;
+
+
+}
+.productrow2{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 100px;
+
+position: absolute;
+width: 1258px;
+height: 204px;
+left: calc(50% - 1258px/2 + 6.5px);
+top: 278px;
+order: 1;
+
+}
+.productrow3{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 100px;
+
+position: absolute;
+width: 1258px;
+height: 204px;
+left: calc(50% - 1258px/2 + 6.5px);
+top: 556px;
+}
+.product1{
+    box-sizing: border-box;
+position: absolute;
+width: 579px;
+height: 204px;
+
+
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.product2{
+    box-sizing: border-box;
+position: absolute;
+width: 579px;
+height: 204px;
+left: 670px;
+
+
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.product3{
+    box-sizing: border-box;
+position: absolute;
+width: 579px;
+height: 204px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.product4{
+    box-sizing: border-box;
+position: absolute;
+width: 579px;
+height: 204px;
+left: 670px;
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.product5{
+    box-sizing: border-box;
+position: absolute;
+width: 579px;
+height: 204px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.movetocart{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 282px;
+height: 50px;
+left: 226px;
+top: 132px;
+}
+.move {
+    
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 44px;
+gap: 10px;
+
+width: 200px;
+height: 50px;
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 1px solid #1F1F1F;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.movetext{
+    
+/* Sign up */
+
+
+width: 101px;
+height: 11px;
+
+margin-top: 5px;
+/* Paragraph 02 */
+text-align: center;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.bin{
+    box-sizing: border-box;
+
+width: 50px;
+height: 46px;
+
+/* Secondary color */
+
+border: 1px solid #1F1F1F;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.bin img{
+margin-left: 10px;
+margin-top: 8px;
+}
+.borderimg{
+    position: absolute;
+width: 204px;
+height: 204px;
+left: 0px;
+top: 0px;
+
+}
+.img{
+    position: absolute;
+width: 204px;
+height: 204px;
+left: 0px;
+top: 0px;
+
+
+border-radius: 12px 0px 0px 12px;
+}
+.frame{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 163px;
+top: 8px;
+
+}
+.heart{
+    position: absolute;
+left: 6.25%;
+right: 6.25%;
+top: 12.5%;
+bottom: 12.52%;
+background: url(images/Vector.png);
+}
+.productdetails{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 18px;
+
+position: absolute;
+width: 298px;
+height: 90px;
+left: 226px;
+top: 8px;
+
+}
+.title{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 298px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.titletext{
+    
+    width: 298px;
+height: 24px;
+margin-left: 5px;
+margin-top: 20px;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: -0px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.02em;
+
+/* Secondary text color */
+
+color: #5F5F5F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.review{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 183px;
+height: 19px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.reviewstars{
+    width: 183px;
+height: 19px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.bx bxs-star{
+    position: absolute;
+width: 16px;
+height: 16px;
+margin-right: 20px;
+left: 0px;
+top: 0px;
+background: #D97642;}
+.review p{
+    position: absolute;
+width: 16px;
+height: 16px;
+margin-left: 125px;
+margin-top: 40px;
+left: 0px;
+top: 0px;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary text color */
+
+color: #5F5F5F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.price{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 172px;
+height: 11px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.p1{
+   
+
+
+/* Paragraph 02 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+
+line-height: 24px;
+/* or 150% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.p2{
+    width: 108px;
+    height: 10px;
+    left: 0px;
+margin-top: 3px;
+    
+    /* Paragraph 03 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.02em;
+    text-decoration-line: line-through;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.p3{
+    width: 108px;
+    height: 10px;
+    left: 0px;
+margin-top: 3px;
+margin-left: -79px;  
+    /* Paragraph 03 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.02em;
+    
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
